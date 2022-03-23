@@ -1,0 +1,29 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  background-color: #043a63;
+  width: 100%;
+}
+header h1 {
+  color: #f0f0f0;
+  font-size: 5rem;
+}
+
+main {
+  background: #e5f9ff;
+  width: 100%;
+  height: auto;
+  padding-bottom: 4rem;
+}
+
+footer {
+  width: 100%;
+  height: 15rem;
+}
+footer h3 {
+  color: #f0f0f0;
+  font-size: 2.5rem;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+@import "Variables";
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: $dbs;
+    width: $sw;
+    h1{
+        color: $wt;
+        font-size: 5rem;
+    }
+}
+main{
+    background: $bkgc;
+    width: $sw;
+    height: auto;
+    padding-bottom: 4rem;
+}
+footer{
+    width: $sw;
+    height: 15rem;
+    h3{
+        color: $wt;
+        font-size: 2.5rem;
+    }
+}

@@ -4,13 +4,14 @@ require "sqlite3"
 require "bcrypt"
 
 get ("/") do
-    slim (:register:)
+    slim (:register)
 end
 
 post ("user/new") do
-    username = params[:username:]
-    password = params[:password:]
-    password_conf = params[:password_conf:]
+    username = params[:username]
+    password = params[:password]
+    password_conf = params[:password_conf]
+    # inte klar här men följer videon
 
     if password == password_conf
 
