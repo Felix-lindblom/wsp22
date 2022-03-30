@@ -9,6 +9,7 @@ header{
     h1{
         color: $wt;
         font-size: 5rem;
+        padding-left: 3rem;
     }
 }
 main{
@@ -16,6 +17,12 @@ main{
     width: $sw;
     height: auto;
     padding-bottom: 4rem;
+    
+    form{
+        @include center;
+
+    };
+    
 }
 footer{
     width: $sw;
