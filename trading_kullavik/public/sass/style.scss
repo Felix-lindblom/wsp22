@@ -3,6 +3,12 @@
     padding: 0%;
     margin: 0%;
 }
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // oklart vad som händer
+}
 header{
     background-color: $dbs;
     width: $sw;

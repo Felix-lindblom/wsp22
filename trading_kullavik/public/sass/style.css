@@ -3,20 +3,32 @@
   margin: 0%;
 }
 
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 header {
-  background-color: #043a63;
+  background-color: rgb(4, 58, 99);
   width: 100%;
 }
 header h1 {
-  color: #f0f0f0;
+  color: rgb(240, 240, 240);
   font-size: 5rem;
+  padding-left: 3rem;
 }
 
 main {
-  background: #e5f9ff;
+  background: rgb(229, 249, 255);
   width: 100%;
   height: auto;
   padding-bottom: 4rem;
+}
+main form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
@@ -24,6 +36,6 @@ footer {
   height: 15rem;
 }
 footer h3 {
-  color: #f0f0f0;
+  color: rgb(240, 240, 240);
   font-size: 2.5rem;
 }/*# sourceMappingURL=style.css.map */
