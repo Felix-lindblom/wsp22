@@ -11,7 +11,9 @@ get ("/register") do
     slim (:register)
 end
 
-post ("user/new") do
+
+
+post ("/user/new") do
     username = params[:username]
     password = params[:password]
     password_conf = params[:password_conf]
@@ -27,7 +29,7 @@ post ("user/new") do
         "password är inte samma i fälten"
     end
 end
-
+# Hittar inte "/user/new"
 get ("/login") do
 
 end
